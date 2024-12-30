@@ -7,4 +7,6 @@ description = "secret key generator"
 
 [dependencies]
 ed25519-dalek = {version="2.1.1",features=["rand_core"]}
+falcon-rust = "0.1.2"
 rand = "0.8.5"
+x-wing = "0.0.1-alpha"
